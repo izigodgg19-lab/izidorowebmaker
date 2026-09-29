@@ -1,4 +1,8 @@
 import { Project, ServiceItem, StepItem, TechCategory } from '../types/portfolio';
+import carlaAugustaImg from '../assets/images/project_dental_carla_1790650434175.jpg';
+import taskflowImg from '../assets/images/project_taskflow_kanban_1790650444340.jpg';
+import massageImg from '../assets/images/project_booking_massage_1790650455413.jpg';
+import buffetImg from '../assets/images/project_buffet_montello_1790650466863.jpg';
 
 export const PERSONAL_INFO = {
   name: 'Izidoro Geovane',
@@ -88,7 +92,7 @@ export const PROJECTS: Project[] = [
       'O site apresenta a Dra. Carla Augusta como cirurgiã-dentista em São Paulo e possui informações de atendimento e contato.',
     url: 'https://www.dracarlaaugusta.com.br/',
     buttonLabel: 'Visitar projeto',
-    image: '/src/assets/images/project_dental_carla_1790650434175.jpg',
+    image: carlaAugustaImg,
     tags: ['Site Profissional', 'Odontologia', 'Landing Page', 'Responsivo'],
     features: ['Apresentação de serviços', 'Locais de atendimento', 'Depoimentos', 'Canais de contato'],
   },
@@ -103,7 +107,7 @@ export const PROJECTS: Project[] = [
       'TaskFlow — Organize seu trabalho. Conquiste seus objetivos.',
     url: 'https://saas-kanban-xi.vercel.app/login',
     buttonLabel: 'Acessar sistema',
-    image: '/src/assets/images/project_taskflow_kanban_1790650444340.jpg',
+    image: taskflowImg,
     tags: ['SaaS', 'Metodologia Kanban', 'Gestão de Tarefas', 'Sistema Web'],
     features: ['Quadro Kanban', 'Fluxo de trabalho visual', 'Autenticação', 'Acompanhamento de processos'],
   },
@@ -116,7 +120,7 @@ export const PROJECTS: Project[] = [
       'Aplicação web voltada para gerenciamento e organização de agendamentos de serviços de massagem, demonstrando a criação de uma solução digital direcionada a uma necessidade específica de negócio.',
     url: 'https://izigods-project-pn5m.vercel.app/',
     buttonLabel: 'Visitar projeto',
-    image: '/src/assets/images/project_booking_massage_1790650455413.jpg',
+    image: massageImg,
     tags: ['Sistema Web', 'Agendamento Online', 'Organização de Horários', 'Interface Intuitiva'],
     features: ['Gestão de horários', 'Seleção de procedimentos', 'Interface amigável', 'Fluxo de reserva'],
   },
@@ -129,7 +133,7 @@ export const PROJECTS: Project[] = [
       'Projeto digital desenvolvido para apresentação de um negócio do segmento de eventos e buffet, com foco em presença digital, apresentação dos serviços e comunicação com potenciais clientes.',
     url: 'https://buffetmontello.com.br/inicio/',
     buttonLabel: 'Visitar projeto',
-    image: '/src/assets/images/project_buffet_montello_1790650466863.jpg',
+    image: buffetImg,
     tags: ['Site Institucional', 'Eventos & Buffet', 'Presença Digital', 'Design Elegante'],
     features: ['Catálogo de serviços para eventos', 'Galeria de recepções', 'Formas de contato'],
   },
